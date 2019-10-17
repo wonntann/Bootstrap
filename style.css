@@ -1,0 +1,9 @@
+/* font size, color white, center, 0 margin, background black */
+.joke-text {
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+}
+
