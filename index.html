@@ -22,6 +22,7 @@
     <li data-target="#joke-carousel" data-slide-to="1"></li>
     <li data-target="#joke-carousel" data-slide-to="2"></li>
   </ol>
+
   <!-- Images -->
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -63,6 +64,14 @@
     $.widget.bridge('uitooltip', $.ui.tooltip);
     $.widget.bridge('uibutton', $.ui.button);
   </script>
+
+<script>
+$(function() {
+$("img").uitooltip({
+track: true
+});
+});
+</script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.js"></script>
 </body>
 
